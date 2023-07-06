@@ -1,0 +1,41 @@
+html {
+    width: 400px; 
+}
+
+#heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#title{
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#notesDiv {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#notes {
+    font-size: 16px;
+
+
+}
+
+#clearButton {
+    padding: 10px;
+    border: 0px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(202, 0, 0);
+    color: white
+}
+
+#clearButton:hover {
+    background-color: rgb(154, 0, 0);
+}
